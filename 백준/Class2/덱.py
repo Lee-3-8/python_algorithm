@@ -26,3 +26,5 @@ if __name__ == '__main__':
     for i in range(n):
         cmd = sys.stdin.readline().split()
         solution(*cmd)
+
+    
