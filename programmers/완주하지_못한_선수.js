@@ -10,7 +10,9 @@ function solution(participant, completion) {
   
   for (let key in obj1){
       if (obj1[key] === 1){
-          return key;
+        return key;
       }
   }
 }
+
+console.log('test')
