@@ -1,1 +1,1 @@
-# python_algorithm with fast_campus
+# python_algorithm
