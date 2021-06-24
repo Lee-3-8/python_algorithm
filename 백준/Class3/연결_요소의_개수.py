@@ -24,10 +24,11 @@ def solution(n,dic):
     def bfs(node):
         que = deque([node])
         while que:
-            visited.add(que[0])
             for j in dic[que.popleft()]:
                 if j not in visited:
                     que.append(j)
+                    visited.add(j)
+
     for i in range(1,n+1):
         if i not in visited:
             dfs(i)
